@@ -60,7 +60,8 @@ public class PentagoBoardState extends BoardState {
             }
         }
 
-        rand = new Random(2019);
+//        rand = new Random(2019);
+        rand = new Random();
         winner = Board.NOBODY;
         turnPlayer = FIRST_PLAYER;
         turnNumber = 0;
